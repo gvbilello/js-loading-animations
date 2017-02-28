@@ -7,11 +7,11 @@ function setup() {
 	line1 = line2 - 20 - 10;
 	line3 = line2 + 20 + 10;
 	noStroke();
-	fill(255);
+	fill(0);
 }
 
 function draw() {
-	background(0);
+	background(255);
 
 	h1 = sin(angle) * rate;
 	h2 = sin(angle + PI / 8) * rate;
