@@ -1,5 +1,5 @@
 var angle = 0;
-var rate = 20;
+var rate = 15;
 
 function setup() {
 	createCanvas(720, 400);
@@ -14,7 +14,7 @@ function draw() {
 	background(255);
 
 	dot1Height = sin(angle) * rate + (height / 2);
-	dot2Height = sin(angle + PI) * rate +(height / 2);
+	dot2Height = sin(angle + PI) * rate + (height / 2);
 
   fill(100);
   ellipse(width / 2, dot2Height, 20, 20);
