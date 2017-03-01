@@ -21,5 +21,5 @@ function draw() {
 	rect(line2, height / 2 - 20, 20, h2);
 	rect(line3, height / 2 - 20, 20, h3);
 
-	angle += 0.02;
+	angle += 0.04;
 }
